@@ -3,15 +3,28 @@ h1{
   font-size: 42px;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  border-radius: 50px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
   width: auto; 
   margin: auto;
 }
 
 html{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(224, 201, 116, 0.3);
-    text-align: center;
+    background-color: rgba(235, 226, 226, 0.87);
+    
+}
+
+li{
+    list-style-type: circle;
+}
+
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 250px;
 }
 
 .recipe-list{
@@ -20,8 +33,22 @@ html{
     background-color: rgba(224, 201, 116, 0.3);
     width: auto;
     margin: auto;
+    text-align: left;
 }
 
-li{
-    list-style-type: circle;
+.return-home{
+    text-align: left;
+}
+
+.main-body{
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-color: black;
+    background-color: rgba(224, 201, 116, 0.3);
+    border: 1px solid;
+    box-shadow: 5px 7px;
+}
+
+.inner-body{
+  text-align: center;
 }
